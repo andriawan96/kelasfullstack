@@ -31,16 +31,16 @@
 //     alert('nilai A');
 // }
 
-const password = prompt('Buat password');
-if( password.length >= 6){
-    if(password.indexOf(' ') === -1){
-        console.log('Password valid');
-    } else {
-        console.log('password tidak boleh ada spasi');
-    }
-} else {
-    console.log('password minimal 6 karakter');
-}
+// const password = prompt('Buat password');
+// if( password.length >= 6){
+//     if(password.indexOf(' ') === -1){
+//         console.log('Password valid');
+//     } else {
+//         console.log('password tidak boleh ada spasi');
+//     }
+// } else {
+//     console.log('password minimal 6 karakter');
+// }
 
 //jika prompt di cancle
 // let input = prompt("Masukan nama:");
@@ -57,3 +57,17 @@ if( password.length >= 6){
  // Tampilkan di console
 //  console.log("Prompt telah di-cancel");
 // }
+
+
+// let akun = prompt("Masukan password anda!");
+// if(akun === "admin" || akun === "spv"){
+//     console.log("di terima");
+// }else{
+//     console.log("sore kawala")
+// }
+
+//array
+
+let playlist = ['bunga','aji','bara','nara'];
+console.log(playlist);
+typeof(playlist);
