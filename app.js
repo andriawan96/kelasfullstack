@@ -41,3 +41,19 @@ if( password.length >= 6){
 } else {
     console.log('password minimal 6 karakter');
 }
+
+//jika prompt di cancle
+// let input = prompt("Masukan nama:");
+// if(input === null){
+//     alert("batalkan aksi ini!");
+// } else {
+//     alert("halo, " + input + "!");
+// }
+//jika prompt di cancle
+// Tampilkan prompt
+// var hasil = prompt("Ketikkan sesuatu");
+// Cek hasil prompt apabila cancel
+// if (!hasil) {
+ // Tampilkan di console
+//  console.log("Prompt telah di-cancel");
+// }
