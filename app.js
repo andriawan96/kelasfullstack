@@ -69,5 +69,13 @@
 //array
 
 let playlist = ['bunga','aji','bara','nara'];
-console.log(playlist);
-typeof(playlist);
+// console.log(playlist);
+// typeof(playlist);
+
+let buah = [];
+buah.push("melon");
+buah.push("jeruk");
+
+
+console.log(buah);
+
