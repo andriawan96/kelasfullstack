@@ -31,15 +31,22 @@
 //     alert('nilai A');
 // }
 
+// if bersarang
 const password = prompt('Buat password');
-if( password.length >= 6){
-    if(password.indexOf(' ') === -1){
-        console.log('Password valid');
-    } else {
-        console.log('password tidak boleh ada spasi');
-    }
-} else {
-    console.log('password minimal 6 karakter');
+// if( password.length >= 6){
+//     if(password.indexOf(' ') === -1){
+//         console.log('Password valid');
+//     } else {
+//         console.log('password tidak boleh ada spasi');
+//     }
+// } else {
+//     console.log('password minimal 6 karakter');
+// }
+// if bersarang menggunakan logical
+if(password.length >= 6 && password.indexOf(' ') === -1){
+    console.log("password valid");
+}else{
+    console.log('password tidak memenuhin syarat');
 }
 
 //jika prompt di cancle
