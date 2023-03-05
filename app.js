@@ -75,7 +75,14 @@ let playlist = ['bunga','aji','bara','nara'];
 let buah = [];
 buah.push("melon");
 buah.push("jeruk");
+buah.push("anggur");
 
+let hewan = [];
+hewan.push("monyet");
+hewan.push("gajah");
+hewan.push("macan");
 
-console.log(buah);
+let buahHewan = buah.concat(hewan);
+
+console.log(buahHewan.indexOf("ayam"));
 
