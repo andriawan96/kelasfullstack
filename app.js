@@ -31,8 +31,12 @@
 //     alert('nilai A');
 // }
 
+<<<<<<< HEAD
 // if bersarang
 const password = prompt('Buat password');
+=======
+// const password = prompt('Buat password');
+>>>>>>> 1b99b0724e95b46befba128813fb4eaf70cd388c
 // if( password.length >= 6){
 //     if(password.indexOf(' ') === -1){
 //         console.log('Password valid');
@@ -42,12 +46,15 @@ const password = prompt('Buat password');
 // } else {
 //     console.log('password minimal 6 karakter');
 // }
+<<<<<<< HEAD
 // if bersarang menggunakan logical
 if(password.length >= 6 && password.indexOf(' ') === -1){
     console.log("password valid");
 }else{
     console.log('password tidak memenuhin syarat');
 }
+=======
+>>>>>>> 1b99b0724e95b46befba128813fb4eaf70cd388c
 
 //jika prompt di cancle
 // let input = prompt("Masukan nama:");
@@ -64,3 +71,32 @@ if(password.length >= 6 && password.indexOf(' ') === -1){
  // Tampilkan di console
 //  console.log("Prompt telah di-cancel");
 // }
+
+
+// let akun = prompt("Masukan password anda!");
+// if(akun === "admin" || akun === "spv"){
+//     console.log("di terima");
+// }else{
+//     console.log("sore kawala")
+// }
+
+//array
+
+let playlist = ['bunga','aji','bara','nara'];
+// console.log(playlist);
+// typeof(playlist);
+
+let buah = [];
+buah.push("melon");
+buah.push("jeruk");
+buah.push("anggur");
+
+let hewan = [];
+hewan.push("monyet");
+hewan.push("gajah");
+hewan.push("macan");
+
+let buahHewan = buah.concat(hewan);
+
+console.log(buahHewan.indexOf("ayam"));
+
