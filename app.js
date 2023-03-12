@@ -31,12 +31,12 @@
 //     alert('nilai A');
 // }
 
-<<<<<<< HEAD
-// if bersarang
-const password = prompt('Buat password');
-=======
+// <<<<<<< HEAD
+// // if bersarang
 // const password = prompt('Buat password');
->>>>>>> 1b99b0724e95b46befba128813fb4eaf70cd388c
+// =======
+// // const password = prompt('Buat password');
+// >>>>>>> 1b99b0724e95b46befba128813fb4eaf70cd388c
 // if( password.length >= 6){
 //     if(password.indexOf(' ') === -1){
 //         console.log('Password valid');
@@ -46,15 +46,15 @@ const password = prompt('Buat password');
 // } else {
 //     console.log('password minimal 6 karakter');
 // }
-<<<<<<< HEAD
+// <<<<<<< HEAD
 // if bersarang menggunakan logical
-if(password.length >= 6 && password.indexOf(' ') === -1){
-    console.log("password valid");
-}else{
-    console.log('password tidak memenuhin syarat');
-}
-=======
->>>>>>> 1b99b0724e95b46befba128813fb4eaf70cd388c
+// if(password.length >= 6 && password.indexOf(' ') === -1){
+//     console.log("password valid");
+// }else{
+//     console.log('password tidak memenuhin syarat');
+// }
+// =======
+// >>>>>>> 1b99b0724e95b46befba128813fb4eaf70cd388c
 
 //jika prompt di cancle
 // let input = prompt("Masukan nama:");
@@ -82,21 +82,61 @@ if(password.length >= 6 && password.indexOf(' ') === -1){
 
 //array
 
-let playlist = ['bunga','aji','bara','nara'];
+// let playlist = ['bunga','aji','bara','nara'];
 // console.log(playlist);
 // typeof(playlist);
 
-let buah = [];
-buah.push("melon");
-buah.push("jeruk");
-buah.push("anggur");
+// let buah = [];
+// buah.push("melon");
+// buah.push("jeruk");
+// buah.push("anggur");
 
-let hewan = [];
-hewan.push("monyet");
-hewan.push("gajah");
-hewan.push("macan");
+// let hewan = [];
+// hewan.push("monyet");
+// hewan.push("gajah");
+// hewan.push("macan");
 
-let buahHewan = buah.concat(hewan);
+// let buahHewan = buah.concat(hewan);
 
-console.log(buahHewan.indexOf("ayam"));
+// console.log(buahHewan.indexOf("ayam"));
 
+// multi array
+let board = [
+    [null, null, '0'],
+    [null, null, '0'],
+    [null, null, '0']
+];
+// console.log(board[2][2]);
+
+// let rs_toko = {
+//     id: 'A0001',
+//     nama: 'Wahyoo toko',
+//     isOpen: true,
+//     tanggalDaftar: '03-03-2023',
+//     location: {
+//         region: ['nasional','internasional'],
+//         address: 'parigi lama - pondok aren - tangsel'
+//     }
+// }
+// rs_toko.location.no = '20';
+
+let buku = [
+    {
+        judul: 'Pemrograman PHP',
+        price: 12000,
+        tTerbit: 2022
+    },
+    {
+        judul: 'Pemrograman JavaScript',
+        price: 20000,
+        tTerbit: 2022
+    },
+    {
+        judul: 'Pemrograman GoLang',
+        price: 25000,
+        tTerbit: 2022
+    },
+]
+buku[0].penulis = "andri"
+
+console.log(buku[0].judul);
