@@ -82,8 +82,9 @@ let user = 'adminn';
 //     }
 // }
 
-let i = 100;
-while ( i > 0){
-    console.log( i + " * 5 = " + i*5);
-    i = i -5;
-}
+// let i = 100;
+// while ( i > 0){
+//     console.log( i + " * 5 = " + i*5);
+//     i = i -5;
+// }
+
