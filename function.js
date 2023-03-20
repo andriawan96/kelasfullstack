@@ -37,6 +37,13 @@ function say(){
 //     ['kaka', 'kiki', 'kuku'],
 //     ['nara','niri','nuru'],
 // ];
+// for(let i = 0; i < studentRow.length; i++){
+//     const row = studentRow[i];
+//     console.log(`Baris ke #${i + 1}`);
+//         for(let j = 0; j < row.length; j++){
+//             console.log(`  ${row[j]}`);
+//         }
+// }
 
 // console.log(studentRow);
 
@@ -88,3 +95,10 @@ let user = 'adminn';
 //     i = i -5;
 // }
 
+// --==while==--
+let input = prompt('hei, ketik stop untuk berhenti');
+while(true){
+    input = prompt(input);
+    if(input.toLowerCase() === 'stop') break;
+}
+alert('ok sudah berhenti')
