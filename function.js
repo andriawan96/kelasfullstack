@@ -96,9 +96,30 @@ let user = 'adminn';
 // }
 
 // --==while==--
-let input = prompt('hei, ketik stop untuk berhenti');
-while(true){
-    input = prompt(input);
-    if(input.toLowerCase() === 'stop') break;
+// let input = prompt('hei, ketik stop untuk berhenti');
+// while(true){
+//     input = prompt(input);
+//     if(input.toLowerCase() === 'stop') break;
+// }
+// alert('ok sudah berhenti')
+
+
+// game tebak2 angka
+
+let maximun = parseInt(prompt('masukan nilai maksimal'));
+while(!maximun){
+    maximun = parseInt(prompt('masukan nilai maksimal'));
 }
-alert('ok sudah berhenti')
+
+const targetNum = Math.floor(Math.random() * maximun) + 1;
+console.log(targetNum);
+
+let gues = parseInt(prompt('isi tebakan pertama kamu'));
+while(parseInt(gues) !== targetNum){
+    if(gues > targetNum){
+        gues = prompt('terlalu tinggi, tebak lagi:');
+    } else {
+        gues = prompt('terlalu rendah, tebak lagi :');
+    }
+}
+alert('selamat tebakan anda benar')
