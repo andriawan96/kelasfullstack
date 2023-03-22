@@ -20,8 +20,9 @@ const studentScore = {
     pais: 18,
     harbi: 17
 };
+let urut = 1;
 for (let student in studentScore){
-    console.log(`Siswa ${student} memiliki nilai/skor ${studentScore[student]}`);
+    // console.log(`Siswa ${student} no urut ${urut++} memiliki nilai/skor ${studentScore[student]}`);
 }
 
 let total = 0;
@@ -29,4 +30,4 @@ let scores = Object.values(studentScore);
 for (let score of scores){
     total += score;
 } 
-console.log("Nilai rata-rata : " + total / scores.length);
+// console.log("Nilai rata-rata : " + total / scores.length);
