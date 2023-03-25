@@ -18,4 +18,17 @@ function jumlahkan(a, b){
 }
 
 let hasil = jumlahkan('a', 2);
-console.log(hasil);
+// console.log(hasil);
+
+// ========================== 26 03 2023
+
+// lexical function
+function lamarKerja(){
+    const jabatan = 'programmer';
+
+    function orangDalama(){
+        let kenalan = `Orang dalam bisa memasukan ${jabatan}`;
+        console.log(kenalan);
+    }
+    orangDalama();
+}
