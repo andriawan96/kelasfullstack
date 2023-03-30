@@ -23,12 +23,24 @@ let hasil = jumlahkan('a', 2);
 // ========================== 26 03 2023
 
 // lexical function
-function lamarKerja(){
-    const jabatan = 'programmer';
+// function lamarKerja(){
+//     const jabatan = 'programmer';
 
-    function orangDalama(){
-        let kenalan = `Orang dalam bisa memasukan ${jabatan}`;
-        console.log(kenalan);
-    }
-    orangDalama();
+//     function orangDalama(){
+//         let kenalan = `Orang dalam bisa memasukan ${jabatan}`;
+//         console.log(kenalan);
+//     }
+//     orangDalama();
+// }
+
+// function sbg argument
+function duaKali(func) {
+    func();
+    func();
+    func();
+}
+
+function lemparDadu(){
+    const hasil = Math.floor(Math.random() * 6) + 1;
+    console.log(hasil);
 }
