@@ -71,4 +71,11 @@ spaceship.color = "grey";
 spaceship["tipeRudal"] = "balistik";
 delete spaceship.diPakai;
 // console.log(`Nama kapal ${spaceship.name} dengan kecepatan ${spaceship.maxSpeed} knot, tahun buatan ${spaceship.create} `);
-console.log(spaceship);
+// console.log(spaceship);
+
+// -> spread operator (array)
+const mainan = ['tamiya', 'RC', 'congklak', 'gambaran', 'tokdal'];
+const game = ['bola', 'berenang', 'manjat pohon']
+const allFavorit = [...mainan, ...game];
+// console.log(...mainan);
+console.log(allFavorit);
