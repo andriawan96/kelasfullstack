@@ -33,7 +33,7 @@ car2.drive();
 car3.turn(); */
 
 //jika menggunakan class
-class Car {
+/*class Car {
   constructor(brand, color, maxSpeed, chassisNumber) {
     this.brand = brand;
     this.color = color;
@@ -65,4 +65,29 @@ console.log(car3);
  
 car1.drive();
 car2.drive();
-car3.drive();
+car3.drive(); */
+
+class User {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+
+  set fullName(fullName) {
+    const [firstName, lastName] = fullName.split(' ');
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+}
+
+const user = new User('john', 'Doe');
+console.log(user);
+console.log(user.fullName);
+
+user.fullName = 'Fulan Fulanah';
+console.log(user);
+console.log(user.fullName);
