@@ -67,6 +67,7 @@ car1.drive();
 car2.drive();
 car3.drive(); */
 
+/*
 class User {
   constructor(firstName, lastName) {
     this.firstName = firstName;
@@ -91,3 +92,5 @@ console.log(user.fullName);
 user.fullName = 'Fulan Fulanah';
 console.log(user);
 console.log(user.fullName);
+*/
+
